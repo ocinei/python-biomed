@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-biomed"
+version = "0.1.0"
+description = ""
+authors = ["ocinei <134710670+ocinei@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "python_biomed"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
